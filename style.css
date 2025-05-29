@@ -49,6 +49,7 @@ a{
     object-fit: fill;
     width: 475px;
     height: 250px;
+    clip-path: ellipse(50% 50%);
     
     
 }
