@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header{
+    display:flex;
+    background-color: rgb(92, 92, 138);
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    margin: 16px;
+}
