@@ -12,7 +12,6 @@
     color: rgb(255, 255, 255);
     padding: 24px 150px;
     justify-content: space-between;
-    border: 2px solid blue;
 }
 
 ul{
@@ -33,7 +32,7 @@ a{
     font-size: 18px;
     padding: 24px 150px;
     justify-content: center;
-    border: 2px solid blue;
+    margin-bottom: 24px;
 }
 .name{
     font-size: 48px;
@@ -44,13 +43,18 @@ a{
 .logo-image{
     display: flex;
     flex: 1; 
+    justify-content: end;
 }
 .logo-image img{
     object-fit: fill;
     width: 475px;
     height: 250px;
     clip-path: ellipse(50% 50%);
-    
+}
+
+.right-hero button{
+    padding: 12px;
+    font-size: 24px;
     
 }
 .right-hero{
@@ -62,6 +66,31 @@ a{
     height: 300px;
     flex-grow:1;
     flex-shrink: 0;
+}
+
+.left-hero button{
+    font-size: 18px;
+    background-color: rgb(235, 148, 134);
+    padding: 12px;
+    color: whitesmoke;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+.info-section h1{
+    font-weight: 900;
+    font-size: 36px;
+    color:  rgb(92, 92, 138);
+    border-radius: 12px;
+    border: 16px double rgb(42, 127, 105);
+    align-self: center;
+    padding: 8px;
+    margin-bottom: 48px;
+    
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
 }
 
 
