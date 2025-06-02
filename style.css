@@ -77,7 +77,7 @@ a{
     margin-top: 24px;
 }
 
-.info-section h1{
+.info-header h1{
     font-weight: 900;
     font-size: 36px;
     color:  rgb(92, 92, 138);
@@ -88,9 +88,44 @@ a{
     margin-bottom: 48px;
     
 }
-.info-section{
+.info-header{
     display: flex;
     flex-direction: column;
+}
+
+.info-section{
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: space-around;
+
+}
+.info{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    
+}
+.block{
+    border: 2px solid rgb(121, 173, 255);
+    
+}
+
+.action, .quotes{
+    margin: 24px 0px;
+}
+
+.friends-family{
+    margin: 24px;
+    background-color: rgb(121, 173, 255) ;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 12px;
+    
 }
 
 
