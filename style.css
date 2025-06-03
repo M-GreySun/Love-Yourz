@@ -86,6 +86,7 @@ a{
     align-self: center;
     padding: 8px;
 }
+
 .info-header{
     display: flex;
     flex-direction: column;
@@ -96,6 +97,10 @@ a{
 .info-section{ 
     border: 2px solid hotpink;
     margin: 0px 150px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .subtext{
     flex-grow: 1; 
