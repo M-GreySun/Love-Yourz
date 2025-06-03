@@ -118,6 +118,7 @@ a{
     width: 100px;
     height: 100px;
     border: 2px solid black;
+    flex-shrink: 0;
 }
 .block{
     border: 2px solid rgb(121, 173, 255);
