@@ -159,6 +159,15 @@ a{
     flex-direction: column;
     gap: 50px;
 }
+.quote-header{
+    display: flex;
+    gap: 75px;
+    margin-left: 25px;
+    
+}
+.quote-header img{
+    height: 200px;
+}
 .transition{
     /*background-color: rgb(254, 209, 62);*/
     font-size: 20px;
@@ -168,11 +177,10 @@ a{
     color: rgb(92, 92, 138);
     border: 16px double rgb(202, 85, 1); ;
     border-radius: 50px;
-    margin-left: 25px;
 }
 
 .quote-container{
-    background-color: rgb(254, 209, 62);
+    background-color: rgb(255, 230, 150);
     display: flex;
     justify-content: space-evenly;
     height: 500px;
