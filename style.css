@@ -108,7 +108,27 @@ a{
     border-radius: 12px;
     height: 109px;
     width: 550px;
+    display: flex; 
+    align-items: center;
+    color: whitesmoke;
 }
+#one{
+    background-color: rgb(66, 130, 113);
+}
+#two{
+    background-color: rgb(198, 112, 0);
+}
+#three{
+    background-color: rgb(83, 124, 191);
+}
+#four{
+    background-color: rgb(146, 76, 65);
+}
+#five{
+
+    background-color: rgb(101, 101, 138);
+}
+
 .info{
     display: flex;
     gap: 125px; 
