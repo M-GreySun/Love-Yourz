@@ -161,7 +161,7 @@ a{
 }
 .quote-header{
     display: flex;
-    gap: 75px;
+    gap: 150px;
     margin-left: 25px;
     
 }
@@ -177,6 +177,7 @@ a{
     color: rgb(92, 92, 138);
     border: 16px double rgb(202, 85, 1); ;
     border-radius: 50px;
+    align-self:center;
 }
 
 .quote-container{
@@ -205,4 +206,22 @@ a{
     text-align: end;
     padding: 8px;
     font-style: normal;
+}
+
+.footer{
+    background-color: rgb(92, 92, 138);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 16px;
+}
+
+.action{
+    background-color: rgb(69, 125, 213);
+    font-size: 24px;
+    color: whitesmoke;
+    display: flex;
+    height: 200px;
 }
