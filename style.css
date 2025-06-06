@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -158,7 +157,6 @@ a{
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    height: 1000px;
     gap: 50px;
 }
 .transition{
@@ -171,20 +169,32 @@ a{
     border: 16px double rgb(202, 85, 1); ;
     border-radius: 50px;
     margin-left: 25px;
-    flex-grow: 0px;
 }
 
 .quote-container{
     background-color: rgb(254, 209, 62);
     display: flex;
-    justify-content: space-between;
-    height: 300px;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items:center;
 }
 
 .quote{
-    width: 250px;
-    border: 8px solid blue;
+    width: 200px;
+    border: 8px solid rgb(42, 127, 105);
+    border-radius: 25px;
     background-color: pink;
-    color: brown;
-    flex-grow: 0;
+    padding: 8px;
+    color: rgb(130, 34, 34);
+    font-style:italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.author{
+    margin-top: 24px;
+    text-align: end;
+    padding: 8px;
+    font-style: normal;
 }
