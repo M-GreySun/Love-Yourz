@@ -3,6 +3,7 @@
     padding: 0px;
     border: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink: 0;
 }
 
 .header{
@@ -41,7 +42,6 @@ a{
 
 .logo-image{
     display: flex;
-    flex: 1; 
     justify-content: end;
 }
 .logo-image img{
@@ -63,8 +63,7 @@ a{
 .left-hero, .right-hero{
     width: 300px;
     height: 300px;
-    flex-grow:1;
-    flex-shrink: 0;
+    flex:1;
 }
 
 .left-hero button{
@@ -105,6 +104,7 @@ a{
     border-radius: 12px;
     height: 109px;
     width: 550px;
+    flex-shrink: 0;
 }
 #one{
     background-color: rgb(166, 200, 255);
@@ -122,14 +122,12 @@ a{
     justify-content: center;
     font-size: 17px;
     align-items: center;
-    flex-grow: 0;
     height: 125px;
     
 }
 .icon{
     width: 125px;
     height: 125px;
-    flex-shrink: 0;
     border-radius: 12px;
 }
 .block{
@@ -218,10 +216,39 @@ a{
     padding-top: 16px;
 }
 
-.action{
-    background-color: rgb(69, 125, 213);
+.action{ 
     font-size: 24px;
-    color: whitesmoke;
     display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.action-container{
+    background-color: rgb(121, 173, 255);
+    display: flex;
+    justify-content: space-around;
     height: 200px;
+    width: 75%;
+    padding: 16px;
+    border-radius: 50px;
+}
+
+.right-action{
+    align-self: center;
+    color: rgb(196, 63, 43);
+    background-color: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.left-action, .right-action{
+    display: flex;
+    width: 40%;
+    font-weight: 700;
+    padding: 12px;
+}
+.left-action{
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
 }
