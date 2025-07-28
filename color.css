@@ -1,15 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
     border: solid 5px rgb(35, 128, 0);
     padding: 16px;
     height: 100%;
-    
-    justify-content: space-around;
-    
     margin: 5px;
 }
 
@@ -17,18 +15,50 @@ body{
     border: solid 5px blue;
     
 }
+.mid{
+    margin:16px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.left, .right{
+    flex:1;
+}
+.left{
+    border:solid 5px brown;
+    height: 250px;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.right-child{
+    border:solid 5px brown;
+    flex:1;
+}
 .top{
     padding: 16px;
     display: flex;
     background:rgb(173, 216, 230);
+    justify-content: center;
+    gap: 10px
 }
-.outterBox{
+.outterBox, .innerBox{
     border: solid 5px salmon;
-    width: 200px;
-    height: 100;
-
+    flex: 1;
+    height: 75px;
 }
 
-.mid{
-    border: solid 5px brown;
+.innerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+#midBox{
+    height: 50px;
+    border: solid 5px blue;
+    flex:1
 }
