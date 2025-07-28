@@ -50,6 +50,12 @@ body{
     flex: 1;
     height: 75px;
 }
+.tinyBox{
+    border: solid 5px salmon;
+    height: 75px;
+    flex:0.5;
+
+}
 
 .innerBox{
     display: flex;
