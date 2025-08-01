@@ -74,7 +74,7 @@ a{
 }
 .hero-content{
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 
 .hero-statement button{
@@ -145,8 +145,6 @@ a{
 .block{
     border: 2px solid rgb(121, 173, 255);
 }
-
-
 
 .friends-family{
     margin: 24px;
@@ -224,7 +222,6 @@ a{
     height: 50px;
     align-items: center;
     padding: 15px;
-
 }
 
 .action{ 
