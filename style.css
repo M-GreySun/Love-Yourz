@@ -146,9 +146,7 @@ a{
     border: 2px solid rgb(121, 173, 255);
 }
 
-.action, .quotes{
-    margin: 24px 0px;
-}
+
 
 .friends-family{
     margin: 24px;
@@ -164,7 +162,6 @@ a{
 
 .quotes{
     margin-top: 100px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -172,7 +169,7 @@ a{
 .quote-header{
     display: flex;
     gap: 150px;
-    margin-left: 25px;
+    margin: 0 25px;
     
 }
 .quote-header img{
@@ -225,23 +222,27 @@ a{
     display: flex;
     justify-content: center;
     height: 50px;
-    padding-top: 16px;
+    align-items: center;
+    padding: 15px;
+
 }
 
 .action{ 
     font-size: 24px;
     display: flex;
-    height: 500px;
+    height: 400px;
     align-items: center;
     justify-content: center;
+    margin: 24px 0;
 }
 .action-container{
     background-color: rgb(121, 173, 255);
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    height: min-content;
     width: 75%;
     padding: 16px;
+    padding-right: 20px;
     border-radius: 50px;
 }
 
@@ -258,9 +259,13 @@ a{
     width: 40%;
     font-weight: 700;
     padding: 12px;
+
 }
 .left-action{
     flex-direction: column;
     justify-content: space-around;
     color: whitesmoke;
+    margin-right: 30px;
+    gap: 20px;
+    flex: 1;
 }
