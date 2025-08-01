@@ -8,7 +8,11 @@ body{
     border: solid 5px rgb(35, 128, 0);
     padding: 16px;
     height: 100%;
-    margin:1px
+    width: 100%;
+    margin:1px;
+}
+.hero-statement{
+    display: flex;
 }
 
 .top, .bot{
